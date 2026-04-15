@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Maxima Package Index",
+  "description": "Schema for the mxpm package index (index.json)",
+  "type": "object",
+  "required": ["version", "packages"],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1,
+      "description": "Schema version number"
+    },
+    "packages": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/package"
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_-]{1,63}$"
+      }
+    }
+  },
+  "$defs": {
+    "package": {
+      "type": "object",
+      "required": ["description", "repository", "source"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "repository": {
+          "type": "string",
+          "format": "uri"
+        },
+        "homepage": {
+          "type": "string",
+          "format": "uri"
+        },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "license": {
+          "type": "string"
+        },
+        "authors": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "oneOf": [
+        { "$ref": "#/$defs/tarball-source" },
+        { "$ref": "#/$defs/git-source" }
+      ]
+    },
+    "tarball-source": {
+      "type": "object",
+      "required": ["type", "url"],
+      "properties": {
+        "type": { "const": "tarball" },
+        "url": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "git-source": {
+      "type": "object",
+      "required": ["type", "url", "ref"],
+      "properties": {
+        "type": { "const": "git" },
+        "url": { "type": "string" },
+        "ref": { "type": "string" },
+        "subdir": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
