@@ -71,12 +71,21 @@ git ls-remote https://github.com/user/repo.git HEAD
 ```json
 {
   "type": "tarball",
-  "url": "https://example.com/my-package-1.0.tar.gz"
+  "url": "https://example.com/my-package-1.0.tar.gz",
+  "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "hash_algorithm": "sha256"
 }
 ```
 
 - `url`: Direct HTTPS URL to a `.tar.gz` archive.
+- `hash`: Optional but recommended. SHA-256 hash of the tarball (64-character hex string). When present, mxpm verifies the download against this hash and rejects mismatches.
+- `hash_algorithm`: Optional. Currently only `"sha256"` is supported (and is the default if omitted).
 - Works with GitHub release assets, S3, SourceForge, or any static file host.
+
+To compute the hash of a tarball:
+```bash
+sha256sum my-package-1.0.tar.gz
+```
 
 ### Package naming rules
 
