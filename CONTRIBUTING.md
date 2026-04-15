@@ -22,7 +22,7 @@ Each package entry in `index.json` looks like this:
   "source": {
     "type": "git",
     "url": "https://github.com/user/repo.git",
-    "ref": "main"
+    "ref": "abc123def456789012345678901234567890abcd"
   }
 }
 ```
@@ -52,14 +52,19 @@ Each package entry in `index.json` looks like this:
 {
   "type": "git",
   "url": "https://github.com/user/repo.git",
-  "ref": "main",
+  "ref": "abc123def456789012345678901234567890abcd",
   "subdir": "optional/subdirectory"
 }
 ```
 
 - `url`: Any clonable git URL (HTTPS or SSH)
-- `ref`: Branch, tag, or commit hash. Tags are preferred for reproducibility.
+- `ref`: **Must be a full commit hash** (40-character hex SHA). This ensures reproducible installs — every user gets exactly the same version of the code. Branch names and tags are not accepted.
 - `subdir`: Optional. If the package lives in a subdirectory of a monorepo.
+
+To find the current HEAD commit hash for a repository:
+```bash
+git ls-remote https://github.com/user/repo.git HEAD
+```
 
 **Tarball** (direct download URL):
 
@@ -88,4 +93,5 @@ Before submitting your PR, please verify:
 - [ ] Package name follows the naming rules
 - [ ] `description` is under 200 characters
 - [ ] `source` URL is publicly accessible
+- [ ] Git source `ref` is a full 40-character commit hash (not a branch or tag name)
 - [ ] No duplicate package names

@@ -10,7 +10,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/sdemarre/maxima-diophantine.git",
-        "ref": "diophantine"
+        "ref": "4adf29185a49f3ef8ec88763114c04fbc68f80bc"
       }
     },
     "clifford": {
@@ -21,7 +21,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/dprodanov/clifford.git",
-        "ref": "master"
+        "ref": "39e6dcfc93621c725e02175f791f627223a45d39"
       }
     },
     "padics": {
@@ -32,7 +32,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/josanvallejo/padics.git",
-        "ref": "master"
+        "ref": "29f084b04d9260479fce8b8618a0d1836155d109"
       }
     },
     "qm-maxima": {
@@ -42,7 +42,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/QMeqGR/qm-maxima.git",
-        "ref": "master"
+        "ref": "8e4591316d0c801dd4a259add5b3401d1a02410a"
       }
     },
     "numericalmethods": {
@@ -52,7 +52,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/ramaniji/numericalMethods.git",
-        "ref": "main"
+        "ref": "d84c0016b2a21d013ba577ae479698730e028558"
       }
     },
     "diophantine-system": {
@@ -63,7 +63,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "master",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
         "subdir": "sdemarre/diophantine_system"
       }
     },
@@ -75,7 +75,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "master",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
         "subdir": "yitzchak/texify"
       }
     },
@@ -87,7 +87,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "master",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
         "subdir": "robert-dodier/low_discrepancy"
       }
     },
@@ -99,7 +99,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "master",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
         "subdir": "robert-dodier/superq"
       }
     },
@@ -111,7 +111,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "master",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
         "subdir": "robert-dodier/polyfit"
       }
     },
@@ -123,7 +123,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "master",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
         "subdir": "robert-dodier/json_tools"
       }
     },
@@ -135,7 +135,7 @@
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "master",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
         "subdir": "robert-dodier/timedate_middleendian"
       }
     }

@@ -1,0 +1,66 @@
+name: Validate Index
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  validate:
+    name: Validate index.json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats
+
+      - name: Validate against schema
+        run: ajv validate -s schema.json -d index.json --spec=draft2020 -c ajv-formats
+
+      - name: Check JSON is well-formed
+        run: python3 -c "import json; json.load(open('index.json'))"
+
+      - name: Check git refs are commit hashes
+        run: |
+          python3 -c "
+          import json, sys
+          index = json.load(open('index.json'))
+          errors = []
+          for name, pkg in index['packages'].items():
+              src = pkg['source']
+              if src['type'] == 'git':
+                  ref = src['ref']
+                  if len(ref) != 40 or not all(c in '0123456789abcdef' for c in ref):
+                      errors.append(f'{name}: ref \"{ref}\" is not a 40-char hex commit hash')
+          if errors:
+              for e in errors:
+                  print(f'ERROR: {e}', file=sys.stderr)
+              sys.exit(1)
+          print(f'All {len(index[\"packages\"])} packages have valid commit hash refs.')
+          "
+
+      - name: Check source URLs are reachable
+        run: |
+          python3 -c "
+          import json, urllib.request, sys
+          index = json.load(open('index.json'))
+          errors = []
+          for name, pkg in index['packages'].items():
+              src = pkg['source']
+              url = src['url']
+              # For git URLs, check the repo URL (strip .git suffix for HTTP check)
+              check_url = pkg['repository']
+              try:
+                  req = urllib.request.Request(check_url, method='HEAD')
+                  resp = urllib.request.urlopen(req, timeout=15)
+                  if resp.status >= 400:
+                      errors.append(f'{name}: {check_url} returned HTTP {resp.status}')
+              except Exception as e:
+                  errors.append(f'{name}: {check_url} failed: {e}')
+          if errors:
+              for e in errors:
+                  print(f'WARNING: {e}', file=sys.stderr)
+          print(f'Checked {len(index[\"packages\"])} package URLs.')
+          "
