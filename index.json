@@ -1,65 +1,52 @@
 {
   "version": 1,
   "packages": {
-    "diophantine": {
-      "description": "Solver for Diophantine equations",
-      "repository": "https://github.com/sdemarre/maxima-diophantine",
-      "keywords": ["number-theory", "diophantine", "equations"],
-      "license": "GPL-3.0-or-later",
-      "authors": ["Serge de Marre"],
-      "source": {
-        "type": "git",
-        "url": "https://github.com/sdemarre/maxima-diophantine.git",
-        "ref": "4adf29185a49f3ef8ec88763114c04fbc68f80bc"
-      }
-    },
     "clifford": {
       "description": "Clifford algebra for CAS Maxima",
       "repository": "https://github.com/dprodanov/clifford",
-      "keywords": ["algebra", "clifford", "geometric-algebra"],
-      "authors": ["Dimiter Prodanov"],
+      "keywords": [
+        "algebra",
+        "clifford",
+        "geometric-algebra"
+      ],
+      "authors": [
+        "Dimiter Prodanov"
+      ],
       "source": {
         "type": "git",
         "url": "https://github.com/dprodanov/clifford.git",
         "ref": "39e6dcfc93621c725e02175f791f627223a45d39"
       }
     },
-    "padics": {
-      "description": "A package for computing with p-adic numbers in Maxima CAS",
-      "repository": "https://github.com/josanvallejo/padics",
-      "keywords": ["p-adic", "number-theory"],
-      "authors": ["Jose A. Vallejo"],
+    "diophantine": {
+      "description": "Solver for Diophantine equations",
+      "repository": "https://github.com/sdemarre/maxima-diophantine",
+      "keywords": [
+        "number-theory",
+        "diophantine",
+        "equations"
+      ],
+      "license": "GPL-3.0-or-later",
+      "authors": [
+        "Serge de Marre"
+      ],
       "source": {
         "type": "git",
-        "url": "https://github.com/josanvallejo/padics.git",
-        "ref": "29f084b04d9260479fce8b8618a0d1836155d109"
-      }
-    },
-    "qm-maxima": {
-      "description": "Quantum mechanics calculations using the Maxima CAS",
-      "repository": "https://github.com/QMeqGR/qm-maxima",
-      "keywords": ["quantum-mechanics", "physics"],
-      "source": {
-        "type": "git",
-        "url": "https://github.com/QMeqGR/qm-maxima.git",
-        "ref": "8e4591316d0c801dd4a259add5b3401d1a02410a"
-      }
-    },
-    "numericalmethods": {
-      "description": "Numerical methods for Maxima CAS",
-      "repository": "https://github.com/ramaniji/numericalMethods",
-      "keywords": ["numerical", "methods"],
-      "source": {
-        "type": "git",
-        "url": "https://github.com/ramaniji/numericalMethods.git",
-        "ref": "d84c0016b2a21d013ba577ae479698730e028558"
+        "url": "https://github.com/sdemarre/maxima-diophantine.git",
+        "ref": "4adf29185a49f3ef8ec88763114c04fbc68f80bc"
       }
     },
     "diophantine-system": {
       "description": "Diophantine system solver for Maxima",
       "repository": "https://github.com/maxima-project-on-github/maxima-packages",
-      "keywords": ["number-theory", "diophantine", "systems"],
-      "authors": ["Serge de Marre"],
+      "keywords": [
+        "number-theory",
+        "diophantine",
+        "systems"
+      ],
+      "authors": [
+        "Serge de Marre"
+      ],
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
@@ -67,59 +54,17 @@
         "subdir": "sdemarre/diophantine_system"
       }
     },
-    "texify": {
-      "description": "TeX formatting utilities for Maxima",
-      "repository": "https://github.com/maxima-project-on-github/maxima-packages",
-      "keywords": ["tex", "formatting", "output"],
-      "authors": ["Yitzchak"],
-      "source": {
-        "type": "git",
-        "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
-        "subdir": "yitzchak/texify"
-      }
-    },
-    "low_discrepancy": {
-      "description": "Low-discrepancy sequences for Maxima",
-      "repository": "https://github.com/maxima-project-on-github/maxima-packages",
-      "keywords": ["sequences", "quasi-random", "numerical"],
-      "authors": ["Robert Dodier"],
-      "source": {
-        "type": "git",
-        "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
-        "subdir": "robert-dodier/low_discrepancy"
-      }
-    },
-    "superq": {
-      "description": "Superquadric surfaces for Maxima",
-      "repository": "https://github.com/maxima-project-on-github/maxima-packages",
-      "keywords": ["geometry", "surfaces"],
-      "authors": ["Robert Dodier"],
-      "source": {
-        "type": "git",
-        "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
-        "subdir": "robert-dodier/superq"
-      }
-    },
-    "polyfit": {
-      "description": "Polynomial fitting for Maxima",
-      "repository": "https://github.com/maxima-project-on-github/maxima-packages",
-      "keywords": ["fitting", "polynomial", "numerical"],
-      "authors": ["Robert Dodier"],
-      "source": {
-        "type": "git",
-        "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
-        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
-        "subdir": "robert-dodier/polyfit"
-      }
-    },
     "json_tools": {
       "description": "JSON utilities for Maxima",
       "repository": "https://github.com/maxima-project-on-github/maxima-packages",
-      "keywords": ["json", "data", "parsing"],
-      "authors": ["Robert Dodier"],
+      "keywords": [
+        "json",
+        "data",
+        "parsing"
+      ],
+      "authors": [
+        "Robert Dodier"
+      ],
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
@@ -127,11 +72,130 @@
         "subdir": "robert-dodier/json_tools"
       }
     },
+    "low_discrepancy": {
+      "description": "Low-discrepancy sequences for Maxima",
+      "repository": "https://github.com/maxima-project-on-github/maxima-packages",
+      "keywords": [
+        "sequences",
+        "quasi-random",
+        "numerical"
+      ],
+      "authors": [
+        "Robert Dodier"
+      ],
+      "source": {
+        "type": "git",
+        "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
+        "subdir": "robert-dodier/low_discrepancy"
+      }
+    },
+    "numericalmethods": {
+      "description": "Numerical methods for Maxima CAS",
+      "repository": "https://github.com/ramaniji/numericalMethods",
+      "keywords": [
+        "numerical",
+        "methods"
+      ],
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ramaniji/numericalMethods.git",
+        "ref": "d84c0016b2a21d013ba577ae479698730e028558"
+      }
+    },
+    "padics": {
+      "description": "A package for computing with p-adic numbers in Maxima CAS",
+      "repository": "https://github.com/josanvallejo/padics",
+      "keywords": [
+        "p-adic",
+        "number-theory"
+      ],
+      "authors": [
+        "Jose A. Vallejo"
+      ],
+      "source": {
+        "type": "git",
+        "url": "https://github.com/josanvallejo/padics.git",
+        "ref": "29f084b04d9260479fce8b8618a0d1836155d109"
+      }
+    },
+    "polyfit": {
+      "description": "Polynomial fitting for Maxima",
+      "repository": "https://github.com/maxima-project-on-github/maxima-packages",
+      "keywords": [
+        "fitting",
+        "polynomial",
+        "numerical"
+      ],
+      "authors": [
+        "Robert Dodier"
+      ],
+      "source": {
+        "type": "git",
+        "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
+        "subdir": "robert-dodier/polyfit"
+      }
+    },
+    "qm-maxima": {
+      "description": "Quantum mechanics calculations using the Maxima CAS",
+      "repository": "https://github.com/QMeqGR/qm-maxima",
+      "keywords": [
+        "quantum-mechanics",
+        "physics"
+      ],
+      "source": {
+        "type": "git",
+        "url": "https://github.com/QMeqGR/qm-maxima.git",
+        "ref": "8e4591316d0c801dd4a259add5b3401d1a02410a"
+      }
+    },
+    "superq": {
+      "description": "Superquadric surfaces for Maxima",
+      "repository": "https://github.com/maxima-project-on-github/maxima-packages",
+      "keywords": [
+        "geometry",
+        "surfaces"
+      ],
+      "authors": [
+        "Robert Dodier"
+      ],
+      "source": {
+        "type": "git",
+        "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
+        "subdir": "robert-dodier/superq"
+      }
+    },
+    "texify": {
+      "description": "TeX formatting utilities for Maxima",
+      "repository": "https://github.com/maxima-project-on-github/maxima-packages",
+      "keywords": [
+        "tex",
+        "formatting",
+        "output"
+      ],
+      "authors": [
+        "Yitzchak"
+      ],
+      "source": {
+        "type": "git",
+        "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
+        "ref": "99080e265cdbac55b094040e4b7f513a9bd345a3",
+        "subdir": "yitzchak/texify"
+      }
+    },
     "timedate_middleendian": {
       "description": "Middle-endian date/time formatting for Maxima",
       "repository": "https://github.com/maxima-project-on-github/maxima-packages",
-      "keywords": ["date", "time", "formatting"],
-      "authors": ["Robert Dodier"],
+      "keywords": [
+        "date",
+        "time",
+        "formatting"
+      ],
+      "authors": [
+        "Robert Dodier"
+      ],
       "source": {
         "type": "git",
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git",
