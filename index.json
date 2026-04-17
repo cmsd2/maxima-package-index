@@ -89,6 +89,21 @@
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git"
       }
     },
+    "maxima-core-docs": {
+      "description": "Reference documentation for Maxima built-in functions and variables",
+      "keywords": [
+        "documentation",
+        "core",
+        "reference"
+      ],
+      "license": "GPL-2.0-or-later",
+      "repository": "https://github.com/cmsd2/maxima-core-docs.git",
+      "source": {
+        "ref": "67fe6b0f31a64f24b642012c75b56dc2430b1c58",
+        "type": "git",
+        "url": "https://github.com/cmsd2/maxima-core-docs.git"
+      }
+    },
     "numericalmethods": {
       "description": "Numerical methods for Maxima CAS",
       "keywords": [
