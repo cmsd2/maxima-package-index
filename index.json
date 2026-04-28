@@ -117,6 +117,23 @@
         "url": "https://github.com/ramaniji/numericalMethods.git"
       }
     },
+    "numerics": {
+      "description": "NumPy-like numerical computing for Maxima (SBCL only)",
+      "keywords": [
+        "numerics",
+        "linear-algebra",
+        "blas",
+        "lapack",
+        "ndarray"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/cmsd2/maxima-numerics.git",
+      "source": {
+        "ref": "c71e466e2828d040c4d39e45990140f435cfb2fc",
+        "type": "git",
+        "url": "https://github.com/cmsd2/maxima-numerics.git"
+      }
+    },
     "padics": {
       "authors": [
         "Jose A. Vallejo"
