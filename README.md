@@ -34,6 +34,7 @@ directory automatically, so after installing you can simply:
 | json_tools | JSON utilities |
 | low_discrepancy | Low-discrepancy sequences |
 | numericalmethods | Numerical methods |
+| numerics | NumPy-like numerical computing |
 | padics | p-adic numbers |
 | polyfit | Polynomial fitting |
 | qm-maxima | Quantum mechanics calculations |

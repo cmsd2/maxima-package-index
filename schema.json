@@ -65,7 +65,9 @@
       "required": ["type", "url"],
       "properties": {
         "type": { "const": "tarball" },
-        "url": { "type": "string", "format": "uri" }
+        "url": { "type": "string", "format": "uri" },
+        "hash": { "type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA-256 hash of the tarball (hex-encoded)" },
+        "hash_algorithm": { "type": "string", "enum": ["sha256"], "default": "sha256", "description": "Hash algorithm (currently only sha256)" }
       },
       "additionalProperties": false
     },
