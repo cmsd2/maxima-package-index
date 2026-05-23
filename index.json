@@ -17,6 +17,16 @@
         "url": "https://github.com/dprodanov/clifford.git"
       }
     },
+    "dataframes": {
+      "description": "Pandas-like tabular data for Maxima (SBCL only)",
+      "license": "MIT",
+      "repository": "https://github.com/cmsd2/maxima-dataframes.git",
+      "source": {
+        "ref": "09ea5c2666715bf8544cb6af2eae2f03bb8db38d",
+        "type": "git",
+        "url": "https://github.com/cmsd2/maxima-dataframes.git"
+      }
+    },
     "diophantine": {
       "authors": [
         "Serge de Marre"
