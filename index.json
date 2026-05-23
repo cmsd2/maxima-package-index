@@ -1,5 +1,21 @@
 {
   "packages": {
+    "ax-plots": {
+      "description": "Interactive Plotly.js plotting for Maxima via Aximar",
+      "keywords": [
+        "plotting",
+        "plotly",
+        "aximar",
+        "visualization"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/cmsd2/ax-plots.git",
+      "source": {
+        "ref": "f532d79d47854073d87f659655f3137407b36d61",
+        "type": "git",
+        "url": "https://github.com/cmsd2/ax-plots.git"
+      }
+    },
     "clifford": {
       "authors": [
         "Dimiter Prodanov"
