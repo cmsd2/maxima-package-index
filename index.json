@@ -129,7 +129,7 @@
       "license": "MIT",
       "repository": "https://github.com/cmsd2/maxima-numerics.git",
       "source": {
-        "ref": "c71e466e2828d040c4d39e45990140f435cfb2fc",
+        "ref": "77481d41208b96501894ebfa7d9bc46a7a6f5193",
         "type": "git",
         "url": "https://github.com/cmsd2/maxima-numerics.git"
       }
