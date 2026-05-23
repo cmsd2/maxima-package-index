@@ -160,6 +160,23 @@
         "url": "https://github.com/cmsd2/maxima-numerics.git"
       }
     },
+    "numerics-sundials": {
+      "description": "SUNDIALS ODE/DAE solvers for Maxima numerics",
+      "keywords": [
+        "ode",
+        "dae",
+        "sundials",
+        "cvode",
+        "ida"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/cmsd2/maxima-numerics-sundials.git",
+      "source": {
+        "ref": "3dd48a18118f006dd0286377d76499a92adb5513",
+        "type": "git",
+        "url": "https://github.com/cmsd2/maxima-numerics-sundials.git"
+      }
+    },
     "padics": {
       "authors": [
         "Jose A. Vallejo"
