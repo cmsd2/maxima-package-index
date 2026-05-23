@@ -28,19 +28,23 @@ directory automatically, so after installing you can simply:
 
 | Package | Description |
 |---------|-------------|
-| clifford | Clifford algebra |
-| diophantine | Solver for Diophantine equations |
-| diophantine-system | Diophantine system solver |
-| json_tools | JSON utilities |
-| low_discrepancy | Low-discrepancy sequences |
-| numericalmethods | Numerical methods |
-| numerics | NumPy-like numerical computing |
-| padics | p-adic numbers |
-| polyfit | Polynomial fitting |
-| qm-maxima | Quantum mechanics calculations |
-| superq | Superquadric surfaces |
-| texify | TeX formatting utilities |
-| timedate_middleendian | Middle-endian date/time formatting |
+| [ax-plots](https://github.com/cmsd2/ax-plots) | Interactive Plotly.js plotting for Maxima via Aximar |
+| [clifford](https://github.com/dprodanov/clifford) | Clifford algebra for CAS Maxima |
+| [dataframes](https://github.com/cmsd2/maxima-dataframes) | Pandas-like tabular data for Maxima (SBCL only) |
+| [diophantine](https://github.com/sdemarre/maxima-diophantine) | Solver for Diophantine equations |
+| [diophantine-system](https://github.com/maxima-project-on-github/maxima-packages) | Diophantine system solver for Maxima |
+| [json_tools](https://github.com/maxima-project-on-github/maxima-packages) | JSON utilities for Maxima |
+| [low_discrepancy](https://github.com/maxima-project-on-github/maxima-packages) | Low-discrepancy sequences for Maxima |
+| [maxima-core-docs](https://github.com/cmsd2/maxima-core-docs) | Reference documentation for Maxima built-in functions and variables |
+| [numericalmethods](https://github.com/ramaniji/numericalMethods) | Numerical methods for Maxima CAS |
+| [numerics](https://github.com/cmsd2/maxima-numerics) | NumPy-like numerical computing for Maxima (SBCL only) |
+| [numerics-sundials](https://github.com/cmsd2/maxima-numerics-sundials) | SUNDIALS ODE/DAE solvers for Maxima numerics |
+| [padics](https://github.com/josanvallejo/padics) | A package for computing with p-adic numbers in Maxima CAS |
+| [polyfit](https://github.com/maxima-project-on-github/maxima-packages) | Polynomial fitting for Maxima |
+| [qm-maxima](https://github.com/QMeqGR/qm-maxima) | Quantum mechanics calculations using the Maxima CAS |
+| [superq](https://github.com/maxima-project-on-github/maxima-packages) | Superquadric surfaces for Maxima |
+| [texify](https://github.com/maxima-project-on-github/maxima-packages) | TeX formatting utilities for Maxima |
+| [timedate_middleendian](https://github.com/maxima-project-on-github/maxima-packages) | Middle-endian date/time formatting for Maxima |
 
 ## Adding a package
 
