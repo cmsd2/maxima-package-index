@@ -224,6 +224,23 @@
         "url": "https://github.com/QMeqGR/qm-maxima.git"
       }
     },
+    "reactive": {
+      "description": "First-class signals for Maxima — identity-bearing parameter objects that survive symbolic processing and resolve to numeric values on demand.",
+      "keywords": [
+        "reactive",
+        "signals",
+        "widgets",
+        "sliders",
+        "parameters"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/cmsd2/maxima-reactive.git",
+      "source": {
+        "ref": "cdf59b06bf625d467790e35c4299cbc1bd929cfa",
+        "type": "git",
+        "url": "https://github.com/cmsd2/maxima-reactive.git"
+      }
+    },
     "superq": {
       "authors": [
         "Robert Dodier"
