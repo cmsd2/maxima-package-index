@@ -225,7 +225,7 @@
       }
     },
     "reactive": {
-      "description": "First-class signals for Maxima — identity-bearing parameter objects that survive symbolic processing and resolve to numeric values on demand.",
+      "description": "Named, bounded parameters for Maxima that drive sliders and interactive plots",
       "keywords": [
         "reactive",
         "signals",
