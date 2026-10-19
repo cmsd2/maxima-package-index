@@ -42,7 +42,7 @@ directory automatically, so after installing you can simply:
 | [padics](https://github.com/josanvallejo/padics) | A package for computing with p-adic numbers in Maxima CAS |
 | [polyfit](https://github.com/maxima-project-on-github/maxima-packages) | Polynomial fitting for Maxima |
 | [qm-maxima](https://github.com/QMeqGR/qm-maxima) | Quantum mechanics calculations using the Maxima CAS |
-| [reactive](https://github.com/cmsd2/maxima-reactive) | First-class signals for Maxima — identity-bearing parameter objects that survive symbolic processing and resolve to numeric values on demand. |
+| [reactive](https://github.com/cmsd2/maxima-reactive) | Named, bounded parameters for Maxima that drive sliders and interactive plots |
 | [superq](https://github.com/maxima-project-on-github/maxima-packages) | Superquadric surfaces for Maxima |
 | [texify](https://github.com/maxima-project-on-github/maxima-packages) | TeX formatting utilities for Maxima |
 | [timedate_middleendian](https://github.com/maxima-project-on-github/maxima-packages) | Middle-endian date/time formatting for Maxima |
