@@ -33,6 +33,7 @@ directory automatically, so after installing you can simply:
 | [dataframes](https://github.com/cmsd2/maxima-dataframes) | Pandas-like tabular data for Maxima (SBCL only) |
 | [diophantine](https://github.com/sdemarre/maxima-diophantine) | Solver for Diophantine equations |
 | [diophantine-system](https://github.com/maxima-project-on-github/maxima-packages) | Diophantine system solver for Maxima |
+| [fullsimp](https://github.com/QMeqGR/fsimp-maxima) | Search Maxima's simplification routines for the simplest equivalent form of an expression |
 | [json_tools](https://github.com/maxima-project-on-github/maxima-packages) | JSON utilities for Maxima |
 | [low_discrepancy](https://github.com/maxima-project-on-github/maxima-packages) | Low-discrepancy sequences for Maxima |
 | [maxima-core-docs](https://github.com/cmsd2/maxima-core-docs) | Reference documentation for Maxima built-in functions and variables |

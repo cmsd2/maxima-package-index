@@ -79,6 +79,24 @@
         "url": "https://github.com/maxima-project-on-github/maxima-packages.git"
       }
     },
+    "fullsimp": {
+      "authors": [
+        "Eric Majzoub"
+      ],
+      "description": "Search Maxima's simplification routines for the simplest equivalent form of an expression",
+      "keywords": [
+        "simplification",
+        "trigonometry",
+        "algebra"
+      ],
+      "license": "GPL-2.0-or-later",
+      "repository": "https://github.com/QMeqGR/fsimp-maxima",
+      "source": {
+        "ref": "9301db019aa1a8033594a32d4dd4afe4958555bd",
+        "type": "git",
+        "url": "https://github.com/QMeqGR/fsimp-maxima.git"
+      }
+    },
     "json_tools": {
       "authors": [
         "Robert Dodier"
