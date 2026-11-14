@@ -41,6 +41,7 @@ directory automatically, so after installing you can simply:
 | [numerics](https://github.com/cmsd2/maxima-numerics) | NumPy-like numerical computing for Maxima (SBCL only) |
 | [numerics-sundials](https://github.com/cmsd2/maxima-numerics-sundials) | SUNDIALS ODE/DAE solvers for Maxima numerics |
 | [padics](https://github.com/josanvallejo/padics) | A package for computing with p-adic numbers in Maxima CAS |
+| [permutations](https://github.com/cmsd2/maxima-permutations) | Permutation groups for Maxima, built on cl-permutation (SBCL only) |
 | [polyfit](https://github.com/maxima-project-on-github/maxima-packages) | Polynomial fitting for Maxima |
 | [qm-maxima](https://github.com/QMeqGR/qm-maxima) | Quantum mechanics calculations using the Maxima CAS |
 | [reactive](https://github.com/cmsd2/maxima-reactive) | Named, bounded parameters for Maxima that drive sliders and interactive plots |
