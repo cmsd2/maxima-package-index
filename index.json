@@ -211,6 +211,22 @@
         "url": "https://github.com/josanvallejo/padics.git"
       }
     },
+    "permutations": {
+      "description": "Permutation groups for Maxima, built on cl-permutation (SBCL only)",
+      "keywords": [
+        "permutations",
+        "groups",
+        "group-theory",
+        "schreier-sims"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/cmsd2/maxima-permutations.git",
+      "source": {
+        "ref": "7ac1da897fbc37eca88a6513deadafba47df2dfb",
+        "type": "git",
+        "url": "https://github.com/cmsd2/maxima-permutations.git"
+      }
+    },
     "polyfit": {
       "authors": [
         "Robert Dodier"
