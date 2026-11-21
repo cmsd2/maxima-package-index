@@ -160,7 +160,7 @@
       "license": "MIT",
       "repository": "https://github.com/cmsd2/mochi.git",
       "source": {
-        "ref": "5446abfe44c604ceea3e28f6f194b41fbaa7bbf4",
+        "ref": "a605c690be4ce870b323a7c991055618a220ccf4",
         "type": "git",
         "url": "https://github.com/cmsd2/mochi.git"
       }
