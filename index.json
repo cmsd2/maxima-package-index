@@ -148,6 +148,23 @@
         "url": "https://github.com/cmsd2/maxima-core-docs.git"
       }
     },
+    "mochi": {
+      "description": "Read Modelica models into Maxima symbolic equations via rumoca",
+      "keywords": [
+        "modelica",
+        "control-systems",
+        "state-space",
+        "rumoca",
+        "dae"
+      ],
+      "license": "MIT",
+      "repository": "https://github.com/cmsd2/mochi.git",
+      "source": {
+        "ref": "afb9c0f137d662cb06c902879a1baa9a5ec493b8",
+        "type": "git",
+        "url": "https://github.com/cmsd2/mochi.git"
+      }
+    },
     "numericalmethods": {
       "description": "Numerical methods for Maxima CAS",
       "keywords": [
