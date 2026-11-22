@@ -207,7 +207,7 @@
       "license": "MIT",
       "repository": "https://github.com/cmsd2/maxima-numerics-sundials.git",
       "source": {
-        "ref": "556ca7c0cba78cd0229686f1459e4b2158ce195e",
+        "ref": "c5cfe9e543a6df1bfe57ff19c007021225596489",
         "type": "git",
         "url": "https://github.com/cmsd2/maxima-numerics-sundials.git"
       }
