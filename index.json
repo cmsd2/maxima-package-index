@@ -143,7 +143,7 @@
       "license": "GPL-2.0-or-later",
       "repository": "https://github.com/cmsd2/maxima-core-docs.git",
       "source": {
-        "ref": "67fe6b0f31a64f24b642012c75b56dc2430b1c58",
+        "ref": "8e70a0f111b5a7d2e48bb0d8b36722ce05f567b4",
         "type": "git",
         "url": "https://github.com/cmsd2/maxima-core-docs.git"
       }
