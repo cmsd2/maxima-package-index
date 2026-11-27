@@ -148,6 +148,23 @@
         "url": "https://github.com/cmsd2/maxima-core-docs.git"
       }
     },
+    "maxima-core-docs-de": {
+      "description": "Reference documentation for Maxima built-in functions and variables in German, from Maxima's translated manual; install beside maxima-core-docs",
+      "keywords": [
+        "documentation",
+        "core",
+        "reference",
+        "de"
+      ],
+      "license": "GPL-2.0-or-later",
+      "repository": "https://github.com/cmsd2/maxima-core-docs.git",
+      "source": {
+        "ref": "0aa776d45b9142db24b00590f9cd444661ad7097",
+        "subdir": "lang/de",
+        "type": "git",
+        "url": "https://github.com/cmsd2/maxima-core-docs.git"
+      }
+    },
     "maxima-core-docs-es": {
       "description": "Reference documentation for Maxima built-in functions and variables in Spanish, from Maxima's translated manual; install beside maxima-core-docs",
       "keywords": [
@@ -159,8 +176,25 @@
       "license": "GPL-2.0-or-later",
       "repository": "https://github.com/cmsd2/maxima-core-docs.git",
       "source": {
-        "ref": "75b3d6b29bf046c29b74721003c5360b0c5b1c70",
+        "ref": "0aa776d45b9142db24b00590f9cd444661ad7097",
         "subdir": "lang/es",
+        "type": "git",
+        "url": "https://github.com/cmsd2/maxima-core-docs.git"
+      }
+    },
+    "maxima-core-docs-ja": {
+      "description": "Reference documentation for Maxima built-in functions and variables in Japanese, from Maxima's translated manual; install beside maxima-core-docs",
+      "keywords": [
+        "documentation",
+        "core",
+        "reference",
+        "ja"
+      ],
+      "license": "GPL-2.0-or-later",
+      "repository": "https://github.com/cmsd2/maxima-core-docs.git",
+      "source": {
+        "ref": "0aa776d45b9142db24b00590f9cd444661ad7097",
+        "subdir": "lang/ja",
         "type": "git",
         "url": "https://github.com/cmsd2/maxima-core-docs.git"
       }
@@ -176,7 +210,7 @@
       "license": "GPL-2.0-or-later",
       "repository": "https://github.com/cmsd2/maxima-core-docs.git",
       "source": {
-        "ref": "75b3d6b29bf046c29b74721003c5360b0c5b1c70",
+        "ref": "0aa776d45b9142db24b00590f9cd444661ad7097",
         "subdir": "lang/pt",
         "type": "git",
         "url": "https://github.com/cmsd2/maxima-core-docs.git"
@@ -193,7 +227,7 @@
       "license": "GPL-2.0-or-later",
       "repository": "https://github.com/cmsd2/maxima-core-docs.git",
       "source": {
-        "ref": "75b3d6b29bf046c29b74721003c5360b0c5b1c70",
+        "ref": "0aa776d45b9142db24b00590f9cd444661ad7097",
         "subdir": "lang/pt-BR",
         "type": "git",
         "url": "https://github.com/cmsd2/maxima-core-docs.git"
