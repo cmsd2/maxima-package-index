@@ -37,6 +37,9 @@ directory automatically, so after installing you can simply:
 | [json_tools](https://github.com/maxima-project-on-github/maxima-packages) | JSON utilities for Maxima |
 | [low_discrepancy](https://github.com/maxima-project-on-github/maxima-packages) | Low-discrepancy sequences for Maxima |
 | [maxima-core-docs](https://github.com/cmsd2/maxima-core-docs) | Reference documentation for Maxima built-in functions and variables |
+| [maxima-core-docs-es](https://github.com/cmsd2/maxima-core-docs) | Reference documentation for Maxima built-in functions and variables in Spanish, from Maxima's translated manual; install beside maxima-core-docs |
+| [maxima-core-docs-pt](https://github.com/cmsd2/maxima-core-docs) | Reference documentation for Maxima built-in functions and variables in Portuguese, from Maxima's translated manual; install beside maxima-core-docs |
+| [maxima-core-docs-pt-br](https://github.com/cmsd2/maxima-core-docs) | Reference documentation for Maxima built-in functions and variables in Brazilian Portuguese, from Maxima's translated manual; install beside maxima-core-docs |
 | [mochi](https://github.com/cmsd2/mochi) | Read Modelica models into Maxima symbolic equations via rumoca |
 | [numericalmethods](https://github.com/ramaniji/numericalMethods) | Numerical methods for Maxima CAS |
 | [numerics](https://github.com/cmsd2/maxima-numerics) | NumPy-like numerical computing for Maxima (SBCL only) |
